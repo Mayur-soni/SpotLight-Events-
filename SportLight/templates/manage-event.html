@@ -1,0 +1,66 @@
+
+{% extends 'bash.html' %}
+{% block main %}
+
+
+<!-- Headers-4 block -->
+<!-- inner banner -->
+<section class="w3l-inner-banner-main">
+    <div class="about-inner">
+        <div class="wrapper">
+            {% if request.session.login_email %}
+                {% if request.session.login_role == "user" %}
+            <ul class="breadcrumbs-custom-path">
+                <h3>Manage Bookings</h3>
+                <li><a href="index">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+                <li class="active">Manage Bookings</li>
+            </ul>
+                {% else %}
+            <ul class="breadcrumbs-custom-path">
+                <h3>Manage Events</h3>
+                <li><a href="index">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+                <li class="active">Manage Events</li>
+            </ul>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+</section>
+<!---728x90--->
+
+<!-- //covers -->
+<section class="w3l-ecom-cart">
+		<div class="covers-main">
+			<div class="wrapper">
+				<center><h1>Manage Events</h1></center>
+                           <table class="table table-striped table-light" cellpadding="30" cellspacing="50" >
+                            <tr>
+                                <th>SR No.</th>
+								<th>Image</th>
+                                <th>Name</th>
+								<th>E_DESCRIPTION</th>
+								<th>Price</th>
+							    <th colspan="2" align="center">Action</th>
+                            </tr>
+                                {% for i in alleventsdata %}
+                                <tr>
+								    <td>{{forloop.counter}}</td>
+                                    <td><img src="{{i.E_IMAGE.url}}"></td>
+                                    <td>{{i.E_NAME}}</td>
+                                    <td>{{i.E_DESCRIPTION}}</td>
+                                    <td>{{i.E_PRICE}}</td>
+                                    <td><a href="/editevent/{{i.id}}" class="btn btn-warning">Edit</a></td>
+                                    <td><a href="/delete/{{ i.id }}" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this event?')">Delete</a>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                           </table>
+			</div>
+		</div>
+</section>
+
+
+
+ 
+ <!-- grids block 5 -->
+{% endblock %}

@@ -1,0 +1,71 @@
+{% extends 'bash.html' %}
+{% block main %}
+<!-- Add Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Add Font Awesome for icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+<section class="w3l-inner-banner-main">
+    <div class="about-inner">
+        <div class="wrapper">
+            {% if request.session.login_email %}
+                {% if request.session.login_role == "user" %}
+            <ul class="breadcrumbs-custom-path">
+                <h3>Booking Event</h3>
+                <li><a href="index">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+                <li class="active">Booking Event</li>
+            </ul>
+                {% else %}
+            <ul class="breadcrumbs-custom-path">
+                <h3>Manage Events</h3>
+                <li><a href="index">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+                <li class="active">Manage Events</li>
+            </ul>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-info text-white">
+                    <h4 class="mb-0 text-center">Complete Your Booking</h4>
+                </div>
+
+                <div class="card-body">
+                    <div class="text-center mb-4">
+                        <h5 class="text-muted">Event Details</h5>
+                        <h3 class="text-dark">{{ event.E_NAME }}</h3>
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center mb-4 p-3 bg-light rounded">
+                        <div>
+                            <h6 class="mb-1">Total Amount</h6>
+                            <small class="text-muted">Inclusive of all charges</small>
+                        </div>
+                        <h4 class="text-success mb-0">₹{{ amount }}</h4>
+
+                        <form action="/initiate_payment" method="post">
+                            {%csrf_token%}
+                            <input type="hidden" value="{{eventid}}" name="event_id">
+                            <input type="submit" value="Pay Now">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card-footer bg-light">
+                    <div class="text-center small text-muted">
+                        <i class="fas fa-lock me-1"></i> Secure payment processed by Razorpay
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Bootstrap JS Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+{% endblock %}

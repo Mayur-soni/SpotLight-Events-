@@ -1,0 +1,81 @@
+{% extends "bash.html" %}
+{% block main %}
+
+<!-- Headers-4 block -->
+<!---728x90--->
+
+<!-- contacts -->
+<div class="contacts-9">
+    <div class="wrapper">
+        <div class="top-map d-flex justify-content-center align-items-center"
+             style="min-height: 100vh; display: flex; justify-content: center; align-items: center;">
+
+            <div class="cont-details" style="max-width: 800px; margin: auto;">
+                <div class="card" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 8px; padding: 20px;">
+                <h1 style="text-align: center; margin-bottom: 20px; color:#1f618d">EDIT EVENT</h1>
+
+                    <div class="card-body">
+                        <div class="map-content-9">
+                            <form action="/update" method="post" enctype="multipart/form-data">{% csrf_token %}
+<!--                                <div class="twice-two" style="margin-bottom: 15px;">-->
+<!--                                    <select name="cat" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">-->
+<!--                                        <option value="" disabled selected>Select Category</option>-->
+<!--                                        {% for category in catdata %}-->
+<!--                                        <option value="{{ category.id }}">{{ category.CAT_NAME }}</option>-->
+<!--                                        {% endfor %}-->
+<!--                                    </select>-->
+<!--                                </div>-->
+
+                                <div class="twice-two" style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 15px;">
+                                    <input type="text" name="E_NAME" value="{{eventdata.E_NAME}}" placeholder="Event Name" required
+                                           style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                                    <input type="hidden" name="eid" value="{{eventdata.id}}" id="eventname" required style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+
+                                    <input type="file" name="E_IMAGE" accept="image/*" required
+                                           style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                                    <img src="{{eventdata.E_IMAGE.url}}" height="75" >
+                                </div>
+
+
+                                <div class="twice-two" style="display: flex; justify-content: space-between; gap: 10px; margin-bottom: 15px;">
+                                  <input type="date" name="E_DATE" value="{{ eventdata.E_DATE|date:'Y-m-d' }}" required
+       style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+
+<input type="time" name="E_TIME" value="{{ eventdata.E_TIME|time:'H:i' }}" required
+       style="flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+  </div>
+
+                                <div class="twice" style="margin-bottom: 15px;">
+                                    <input type="text" name="E_ADDRESS_MAPLINK" value="{{eventdata.E_ADDRESS_MAPLINK}}" placeholder="Map Link / Address" required
+                                           style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                                </div>
+
+                                <div class="twice" style="margin-bottom: 15px;">
+                                    <input type="number" name="E_PRICE" value="{{eventdata.E_PRICE}}" placeholder="Price" required
+                                           style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                                </div>
+
+                                <textarea name="E_DESCRIPTION"  placeholder="Event Description" required
+                                          style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 15px; height: 100px;">{{eventdata.E_DESCRIPTION}}</textarea>
+
+                                <button type="submit" style="background-color: #1f618d; color: white; border: none; border-radius: 4px; padding: 10px 20px; cursor: pointer;">
+                                    Update Event
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- //contacts -->
+<!---728x90--->
+
+
+ <!-- grids block 5 -->
+
+{% endblock %}

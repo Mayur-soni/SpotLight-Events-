@@ -1,0 +1,72 @@
+{% extends 'bash.html' %}
+{% block main %}
+<!-- Headers-4 block -->
+<!-- inner banner -->
+<section class="w3l-inner-banner-main">
+    <div class="about-inner">
+        <div class="wrapper">
+            <ul class="breadcrumbs-custom-path">
+                <h3>Event Details</h3>
+                <li><a href="index">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+                <li class="active"> Event Details</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- //covers -->
+<!---728x90--->
+
+<!-- w3l-features-photo-7 -->
+<section class="w3l-features-photo-7">
+	<div class="w3l-features-photo-7_sur">
+		<div class="wrapper">
+			<div class="w3l-features-photo-7_top">
+				<div class="w3l-features-photo-7_top-right">
+					<div class="galleryContainer">
+						<div class="gallery">
+							<input type="radio" name="controls" id="c1" checked><img class="galleryImage" id="i1"
+								src="{{single.E_IMAGE.url}}" class="img img-responsive" alt="">
+
+						</div>
+					</div>
+				</div>
+				<div class="w3l-features-photo-7_top-left">
+					<h4>{{single.E_NAME}}(Music, Audio CD)</h4>
+
+					<p class="coasts">
+						<span class="item_price">₹ {{single.E_PRICE}}</span>
+						<del class="mx-2 font-weight-light">₹ {{single.E_PRICE}}</del>
+
+					</p>
+					<p class="para">{{single.E_DESCRIPTION}}</p>
+
+
+
+					<h5>Requirements</h5>
+					<li> Album Name : Sensuous Chill</li>
+					<li>Release Year : End of Jan 2016 </li>
+					<li>Music Label : Sony Music</li>
+					<li> Format : Audio CD</li>
+					<li>Number of Discs : 1</li>
+					<div class="inline-cont">
+							<a href="#action" class="btn button-ecom1">Buy Now</a>
+							<a href="#cart" class="btn button-ecom">Add to Cart</a>
+						</div>
+				</div>
+			</div>
+<!--			<div class="des-bottom">-->
+<!--				<h5>Description:-</h5>-->
+<!--				<p> {{single.E_DESCRIPTION}}</p>-->
+<!--			</div>-->
+		</div>
+	</div>
+</section>
+<!-- //w3l-features-photo-7 -->
+
+ <!---728x90--->
+
+ <!-- grids block 5 -->
+{% endblock %}
+
+
+
