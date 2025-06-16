@@ -1,3 +1,5 @@
+from sre_constants import CATEGORY
+
 from django.conf import settings
 from django.shortcuts import render, redirect
 from django.contrib import messages
@@ -15,7 +17,7 @@ def index(request):
     return render(request,'index.html',context)
 
 
-def Registre(request):
+def Registretion(request):
     return render(request,'Registretion.html')
 
 def insertregister(request):

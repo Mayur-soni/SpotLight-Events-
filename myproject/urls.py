@@ -24,9 +24,9 @@ from myproject import settings
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    path('login', views.login),
-    path('verify', views.verifyuser),
-    path('Registretion', views.Registre),
+    path('login/', views.login),
+    path('login/verify', views.verifyuser),
+    path('Registretion', views.Registretion),
     path('insert', views.insertregister),
     path('artist-event-form', views.artist_event_form),
     path('manage-event', views.manageevent),
