@@ -1,0 +1,91 @@
+{% extends 'bash.html' %}
+{% block main %}
+
+
+    <script src="static/assets/js/jquery-3.3.1.min.js"></script>
+    <script>
+        $('#drop').change(function () {
+        if ($('#drop').is(":checked")) {
+        $('body').css('overflow', 'hidden');
+        } else {
+        $('body').css('overflow', 'auto');
+        }
+        });
+        </script>
+</section>
+<!-- Headers-4 block -->
+<!---728x90--->
+
+<!-- contacts -->
+<section class="w3l-contacts-9-main" id="contact">
+        <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29370.769721552155!2d72.65020871235144!3d23.047765415960328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86d53c2ed683%3A0x161958a4f45e809a!2sNikol%2C%20Ahmedabad%2C%20Gujarat%20380038!5e0!3m2!1sen!2sin!4v1740397202459!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+		<!---728x90--->
+
+    <div class="contacts-9">
+        <div class="wrapper">
+                <div class="top-map">
+                <div class="cont-details">
+                    <h4>Conatct Us For Info</h4>
+                      <div class="cont-top">
+                          <div class="cont-left">
+                              <span class="fa fa-phone"></span>
+                          </div>
+                          <div class="cont-right">
+                              <h6>Phone Us</h6>
+                              <p><a href="tel:+142 5897555">+91 9664962867</a></p>
+                              
+                        </div>
+                      </div>
+                      <div class="cont-top">
+                            <div class="cont-left">
+                                <span class="fa fa-clock-o"></span>
+                            </div>
+                            <div class="cont-right">
+                                <h6>Email Us</h6>
+                                
+                                <p><a href="https://p.w3layouts.com/cdn-cgi/l/email-protection#caafb2aba7baa6afe7a7aba3a68ab9bfbabaa5b8bee4a9a5a7" class="mail"><span class="__cf_email__" data-cfemail="e18499808c918d84cc8c80888da1929491918e9395cf828e8c">dhruvmahadik232@gmail.com</span></a></p>
+                          </div>
+                        </div>
+                        <div class="cont-top">
+                                <div class="cont-left">
+                                    <span class="fa fa-map-marker"></span>
+                                </div>
+                                <div class="cont-right">
+                                   <h6>Address</h6>
+                                    <p>Nikol, Ahmedabad, Gujarat, India.</p>
+                              </div>
+                            </div>
+                    </div>
+                    <div class="map-content-9">
+    <form action="/insertcontact" method="post" enctype="multipart/form-data">{% csrf_token %}
+        <div class="twice-two">
+            <input type="text" name="Name" id="w3lName" placeholder="Name" required="">
+            <input type="email" name="email" id="w3lSender" placeholder="Email" required="">
+        </div>
+        <div class="twice">
+            <input type="tel" name="phn" id="w3lPhone" placeholder="Phone Number" required="">
+        </div>
+        <div class="twice">
+            <input type="text" name="sub" id="w3lSubject" placeholder="Subject" required="">
+        </div>
+
+        <textarea name="mess" id="w3lMessage" placeholder="Message" required=""></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- //contacts -->
+<!---728x90--->
+
+ 
+ <!-- grids block 5 -->
+{% endblock %}
+
+
+

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35da18a2-9a45-4b75-83e7-24d22026bdab" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.codesandbox/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/activate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/activate.nu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/activate_this.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/deactivate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/django-admin.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/f2py.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/normalizer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/numpy-config.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/pip-3.12.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/pip.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/pip3.12.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/pip3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/pydoc.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/Scripts/sqlformat.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/.venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/migrations/0002_alter_event_seller_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/migrations/0003_contact_subject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/migrations/0004_alter_event_e_image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/migrations/0005_remove_event_e_address_maplink_event_e_url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/migrations/0006_alter_booking_options_remove_booking_screenshort_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/migrations/0007_remove_payment_order_id_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/css/style-freedom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/.idea/images.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/fontawesome-webfont3e6e.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/fontawesome-webfont3e6e.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/fontawesome-webfont3e6e.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/fontawesome-webfont3e6e.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/fontawesome-webfont3e6e.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/fonts/fontawesome-webfontd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/banner-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/banner-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/banner-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/banner-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/e9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/p4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/p5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/p6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/p7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/p8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/p9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/s1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/s2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/s3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/s4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/te-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/te-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/te1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/te2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/te3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/te4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/ts2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/ts3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/images/ts4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/static/assets/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/Edit-event-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/Registretion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/artist-event-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/bash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/book-event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/bookinghistory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/eror.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/manage-event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/payment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/payment_failed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/payment_success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/templates/single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/SportLight/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/Screenshot_2024-07-04_174633.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/cheetah.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/cheetah_8J14ioA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/cheetah_Fj9fRWy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/cheetah_GLYyMUS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/cheetah_GcLGVpl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/cheetah_Kbf3ZC4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/cheetah_dGqQqBE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/cheetah_gUjEU4E.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/cheetah_qqaB6IN.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/cheetah_tziyX6C.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/cheetah_wlb79qc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/image_2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/image_3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/mayur.jpj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/mayur.jpj_e5XMSUg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/right_2TzmT3m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/document/right_CWFotLS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/event_images/OIP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/event_images/Screenshot_2024-08-16_121512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/event_images/Screenshot_2024-08-16_121512_fp0cNcR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/event_images/Screenshot_2024-08-16_121512_itaBfET.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/media/event_images/mu_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/myproject/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/myproject/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/myproject/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/myproject/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/myproject/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpotLight-Events-/requirements.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SpotLight-Events-" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2yG5N3QykQjL5kEe1TLVGGuHTWd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mayur\PycharmProjects\SpotLight-Event" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35da18a2-9a45-4b75-83e7-24d22026bdab" name="Changes" comment="" />
+      <created>1749448025497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749448025497</updated>
+    </task>
+    <servers />
+  </component>
+</project>

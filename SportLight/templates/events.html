@@ -1,0 +1,72 @@
+{% extends 'bash.html' %}
+{% block main %}
+<!-- Headers-4 block -->
+<!-- inner banner -->
+<section class="w3l-inner-banner-main">
+    <div class="about-inner">
+        <div class="wrapper">
+            
+            <ul class="breadcrumbs-custom-path">
+                <h3>Events</h3>
+                <li><a href="index">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+                <li class="active">Events</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- //covers -->
+<!---728x90--->
+
+<!-- blog -->
+<section class="w3l-blog-main-61">
+		<!-- /grids -->
+		<div class="grids-layout">
+			<div class="wrapper">
+				<div class="gallery-25-content">
+					<div class="d-grid grid-columns">
+                          {% for event in eventdata %}
+						<div class="blg-tp">
+
+						<div class="column one-blog">
+							<div class="box13">
+								<a href="/single/{{event.id}}"><img class="side-img"   style="height:400px; width:350px"  src="{{event.E_IMAGE.url}}" alt="" /></a>
+							</div>
+						</div>
+						<div class="column two two-blog">
+							<div class="box13">
+									<h4>RS.{{ event.E_PRICE }}</h4>
+								<h3><a href="/single/{{event.id}}">{{ event.E_NAME }}</a></h3>
+								<ul class="admin-list">
+									<li><a href="/single/{{event.id}}"><span class="fa fa-calendar" aria-hidden="true"></span>{{ event.E_DATE }}</a></li>
+									<li><a href="/single/{{event.id}}"><span class="fa fa-user" aria-hidden="true"></span>by {{event.SELLER_ID}}</a></li>
+<!--									<li><a href="/single/{{event.id}}"><span class="fa fa-commenting-o" aria-hidden="true"></span>9-->
+<!--											Comments</a></li>-->
+								</ul>
+								<p>{{ event.E_DESCRIPTION }}</p>
+									<div class="button">   <a href="/book-event/{{event.id}}" class="actionbg btn">
+        Book Now <span class="fa fa-long-arrow-right" aria-hidden="true"></span>
+    </a></div>
+							</div>
+
+						</div>
+					    </div>
+                          {% endfor %}
+
+				    </div>
+
+				</div>
+
+			</div>
+		</div>
+		</div>
+		<!-- //grids -->
+	</section>
+<!-- //form -->
+<!---728x90--->
+
+ 
+ <!-- grids block 5 -->
+{% endblock %}
+
+
+
